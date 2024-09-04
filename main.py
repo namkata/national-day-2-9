@@ -3,7 +3,7 @@ import math
 import time
 
 # Constants
-WIDTH, HEIGHT = 600, 400
+WIDTH, HEIGHT = 1980, 1024
 RED = (218, 37, 29)
 YELLOW = (255, 255, 0)
 FPS = 60
@@ -11,7 +11,7 @@ FPS = 60
 # Initialize Pygame
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Chào Mừng 79 Năm Ngày Quốc Khánh CHXHCN Việt Nam")
+pygame.display.set_caption("Chào mừng 79 năm Ngày Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam (2/9/1945 - 2/9/2024)")
 clock = pygame.time.Clock()
 
 
@@ -75,7 +75,7 @@ def main():
         if fill_percentage < 100:
             fill_percentage += 0.5
         else:
-            time.sleep(1)  # Pause for 1 second when finished
+            time.sleep(3)  # Pause for 1 second when finished
             fill_percentage = 0  # Reset to repeat the effect
 
         # Limit the frame rate to FPS
